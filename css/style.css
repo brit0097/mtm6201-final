@@ -6,9 +6,40 @@ img {
 
 body {
     font-family: Jost;
+    background-color: #111;
+    color: #FFF9F3;
+}
+
+h1, h2, h3 {
+    font-family: Cinzel, serif;
+    color: #F2C0C0;
+}
+
+.cormorant {
+    font-family: Cormorant Infant, serif;
+    font-weight: 800;
 }
 
 
+
+/* Header */
+
+
+.banner {
+    background-image: url('../images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.list-unstyled li a {
+    color: #FFF9F3;
+}
+
+
+
+/* Insights */
 
 .text-preview {
     font-size: 0.8rem;
@@ -20,17 +51,21 @@ body {
 }
 
 
-h1, h2, h3 {
-    font-family: Cinzel, serif;
-}
 
-.cormorant {
-    font-family: Cormorant Infant, serif;
-    font-weight: 800;
-}
 
+/* Contact */
 
 .contact-div {
     background: linear-gradient(45deg,#F2C0C0, #ACE1EF, #B5EAC8, #FFF9F3);
     padding: 100px;
+    color: #111;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #111;
+    font-family: Jost;
+    font-size: 0.8rem;
 }
