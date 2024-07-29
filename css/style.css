@@ -30,12 +30,28 @@ h1, h2, h3 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: 50vh;
 }
 
 .list-unstyled li a {
     color: #FFF9F3;
 }
+
+
+/* Services */
+
+.service-item {
+    position: relative;
+    text-align: center;
+}
+
+.service-text {
+    position: absolute;
+    background-color: #F2C0C0;
+    
+}
+/* how can i make this ocupy the entire image behind it? */
+
 
 
 
@@ -69,3 +85,4 @@ footer {
     font-family: Jost;
     font-size: 0.8rem;
 }
+
