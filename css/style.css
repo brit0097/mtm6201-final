@@ -10,16 +10,21 @@ body {
     color: #FFF9F3;
 }
 
-h1, h2, h3 {
-    font-family: Cinzel, serif;
-    color: #F2C0C0;
-}
-
 .cormorant {
     font-family: Cormorant Infant, serif;
     font-weight: 800;
 }
 
+
+
+
+
+/* ------------------------ index-page ------------------------ */
+
+#index-page h1, #index-page h2, #index-page h3 {
+    font-family: Cinzel, serif;
+    color: #F2C0C0;
+}
 
 
 /* Header */
@@ -37,6 +42,9 @@ h1, h2, h3 {
     color: #FFF9F3;
 }
 
+#index-nav:first-child {
+    color: #F2C0C0;
+}
 
 /* Services */
 
@@ -54,7 +62,6 @@ h1, h2, h3 {
 
 
 
-
 /* Insights */
 
 .text-preview {
@@ -65,8 +72,6 @@ h1, h2, h3 {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-
-
 
 
 /* Contact */
@@ -86,3 +91,20 @@ footer {
     font-size: 0.8rem;
 }
 
+
+
+
+/* -------------------------- about-page ---------------------------- */
+
+#about-page h1, #about-page h2, #about-page h3 {
+    font-family: Cinzel, serif;
+    color: #B5EAC8;
+}
+
+.banner-about {
+    background-image: url('../images/journey.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
