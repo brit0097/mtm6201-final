@@ -113,3 +113,20 @@ footer {
 #skills {
     background-color: #B5EAC8;
 }
+
+
+/* --------------------------- contact-page -------------------------- */
+
+.banner-contact {
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+#contact-page h1, #contact-page h2, #contact-page h3 {
+    font-family: Cinzel, serif;
+    color: #ACE1EF;
+    padding: 0.5rem 0 1rem 0;
+}
