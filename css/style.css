@@ -78,7 +78,7 @@ body {
 
 .contact-div {
     background: linear-gradient(45deg,#F2C0C0, #ACE1EF, #B5EAC8, #FFF9F3);
-    padding: 100px;
+    padding: 0 0 10px 0;
     color: #111;
 }
 
@@ -99,6 +99,7 @@ footer {
 #about-page h1, #about-page h2, #about-page h3 {
     font-family: Cinzel, serif;
     color: #B5EAC8;
+    padding: 0.5rem 0 1rem 0;
 }
 
 .banner-about {
