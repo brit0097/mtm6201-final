@@ -73,6 +73,20 @@ body {
     -webkit-box-orient: vertical;
 }
 
+.insights-img div img {
+    border-radius: 100px;
+}
+
+.btn-insight {
+    background-color: #F2C0C0;
+    border-radius: 40px;
+    padding: 0.5rem 1.3rem;
+}
+
+.middle-higher {
+    margin-top: -50px;
+}
+
 
 /* Contact */
 
