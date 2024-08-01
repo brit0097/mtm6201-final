@@ -91,7 +91,9 @@ footer {
     font-size: 0.8rem;
 }
 
-
+.hr-home {
+    color: #F2C0C0;
+}
 
 
 /* -------------------------- about-page ---------------------------- */
@@ -114,6 +116,9 @@ footer {
     background-color: #B5EAC8;
 }
 
+.hr-about {
+    color: #B5EAC8;
+}
 
 /* --------------------------- contact-page -------------------------- */
 
