@@ -130,3 +130,95 @@ footer {
     color: #ACE1EF;
     padding: 0.5rem 0 1rem 0;
 }
+
+.contact-form input.form-control,
+.contact-form textarea.form-control {
+    background-color: #FFF9F3;
+}
+
+.form-group label {
+    color: #FFF9F3;
+}
+
+.datepicker {
+	width: 95%;
+	max-width: 350px;
+	background-color: #FFF9F3;
+	border-radius: 10px;
+	box-shadow: 0 0 2px 0 rgba(#000, .2), 0 5px 10px 0 rgba(#000, .1);
+	padding: 1rem;
+}
+
+.month-selector {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.arrow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	background-color:#ACE1EF;
+	border-radius: 12px;
+	width: 2.5rem;
+	height: 2.5rem;
+	box-shadow: 0 0 2px 0 rgba(#000,.25), 0 0 10px 0 rgba(#000, .15);
+}
+
+.month-name {
+	font-weight: 600;
+    color: #111;
+    font-size: 1.5rem;
+}
+
+.datepicker-calendar {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-row-gap: 1rem;
+}
+
+.day, .date {
+	justify-self: center;
+}
+
+.day {
+	color: #ACE1EF;
+	font-size: .875em;
+	font-weight: 500;
+	justify-self: center;
+    margin-top: 1rem;
+}
+
+.date {
+	border: 0;
+	padding: 0;
+	width: 2.25rem;
+	height: 2.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	font-weight: 600;
+	border: 2px solid transparent;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.faded {
+	color: #999;
+    font-weight: 400;
+}
+
+.current-day {
+	background-color: #ACE1EF;
+}
+
+#my-email {
+    color: #FFF9F3;
+}
+
+.hr-contact {
+    color: #ACE1EF;
+}
