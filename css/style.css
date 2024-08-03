@@ -35,7 +35,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 450px;
 }
 
 .list-unstyled li a {
@@ -157,7 +157,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 450px;
 }
 
 #skills {
@@ -175,7 +175,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 450px;
 }
 
 #contact-page h1, #contact-page h2, #contact-page h3 {
