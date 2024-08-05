@@ -1,41 +1,62 @@
+:root {
+    --primary-color: #F2C0C0;
+    --secondary-color: #B5EAC8;
+    --tertiary-color: #ACE1EF;
+    --background-color: #111;
+    --text-color: #FFF9F3;
+    --font-main: 'Jost', sans-serif;
+    --font-secondary: 'Cormorant Infant', serif;
+    --font-heading: 'Cinzel', serif;
+    --border-radius-banner: 24% 95% 46% 62% / 81% 31% 50% 33%;
+    --border-radius-services: 45% 31% 20% 57% / 50% 72% 51% 36%;
+    --border-radius-insights: 27% 67% 35% 47% / 55% 25% 62% 24%;
+}
 
+body {
+    font-family: var(--font-main);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
 
 img {
     max-width: 100%;
 }
 
-body {
-    font-family: Jost;
-    background-color: #111;
-    color: #FFF9F3;
-}
-
 .cormorant {
-    font-family: Cormorant Infant, serif;
+    font-family: var(--font-secondary);
     font-weight: 800;
 }
 
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
 
+header {
+    position: relative;
+}
+
+/* a:hover, a:focus {
+    text-decoration: underline;
+    transition: text-decoration 0.3s;
+} */
+
+/* button:hover, button:focus {
+
+} */
 
 
 
 /* ------------------------ index-page ------------------------ */
 
 #index-page h1, #index-page h2, #index-page h3 {
-    font-family: Cinzel, serif;
-    color: #F2C0C0;
-}
-
-
-/* Header */
-
-header {
-    position: relative;
+    color: var(--primary-color);
 }
 
 #index-page .cls-1 {
-    fill: #F2C0C0;
+    fill: var(--primary-color);
 }
+
+/* Header */
 
 .banner {
     background-image: url('../images/home.jpg');
@@ -55,13 +76,13 @@ header {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 24% 95% 46% 62% / 81% 31% 50% 33%;
+    border-radius: var(--border-radius-banner);
     padding: 30px 30px 15px 30px;
     backdrop-filter: blur(5px);
 }
 
 #index-page .list-unstyled li a {
-    color: #f2c0c0;
+    color: var(--primary-color);
     text-shadow: 2px 1px 2px #11111180;
 }
 
@@ -82,17 +103,13 @@ header {
 }
 
 .custom-shape-divider-bottom-1722697010 .shape-fill {
-    fill: #111111;
+    fill: var(--background-color);
 }
-
-/* Phrase */
-
-
 
 /* Services + Insights */
 
 .service-item img {
-    border-radius: 45% 31% 20% 57% / 50% 72% 51% 36% ;
+    border-radius: var(--border-radius-services) ;
 }
 
 .service-item {
@@ -122,7 +139,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    color: #FFF9F3;
+    color: var(--text-color);
     background-color: #11111180; 
     padding: 10px 20px;
     border-radius: 100px;
@@ -131,7 +148,6 @@ header {
 .service-text p {
     margin: 0;
 }
-
 
 /* Insights */
 
@@ -145,7 +161,7 @@ header {
 }
 
 .insights-img div img {
-    border-radius: 27% 67% 35% 47% / 55% 25% 62% 24% ;
+    border-radius: var(--border-radius-insights);
     position: relative;
 }
 
@@ -155,7 +171,7 @@ header {
 }
 
 .btn-insight {
-    background-color: #F2C0C0;
+    background-color: var(--primary-color);
     border-radius: 40px;
     padding: 0.5rem 1.3rem;
 }
@@ -166,14 +182,12 @@ header {
 
 /* add glass effect in the future to the insights */
 
-
-
 /* Contact */
 
 .contact-div {
-    background: linear-gradient(45deg,#F2C0C0, #ACE1EF, #B5EAC8, #FFF9F3);
-    padding: 70px 0 70px 0;
-    color: #111;
+    background: linear-gradient(45deg, var(--primary-color), var(--tertiary-color), var(--secondary-color), var(--text-color));
+    padding: 70px 0;
+    color: var(--background-color);
     position: relative;
 }
 
@@ -217,23 +231,23 @@ header {
 }
 
 .custom-shape-divider-bottom-1722698429 .shape-fill {
-    fill: #111111;
+    fill: var(--background-color);
 }
 
 /* Footer */
 
 footer {
-    background-color: #111;
-    font-family: Jost;
+    background-color: var(--background-color);
+    font-family: var(--font-main);
     font-size: 0.8rem;
 }
 
 .hr-home {
-    color: #F2C0C0;
+    color: var(--primary-color);
 }
 
 #index-page footer .footer-icon {
-    color: #F2C0C0;
+    color: var(--primary-color);
     text-shadow: 2px 2px 5px #11111199;
     cursor: pointer;
 }
@@ -242,18 +256,17 @@ footer {
 /* -------------------------- about-page ---------------------------- */
 
 #about-page h1, #about-page h2, #about-page h3 {
-    font-family: Cinzel, serif;
-    color: #B5EAC8;
+    color: var(--secondary-color);
     padding: 0.5rem 0 1rem 0;
 }
 
 #about-page .list-unstyled li a {
-    color: #B5EAC8;
+    color: var(--secondary-color);
     text-shadow: 2px 1px 2px #11111180;
 }
 
 #about-page .cls-1 {
-    fill: #B5EAC8;
+    fill: var(--secondary-color);
 }
 
 .banner-about {
@@ -274,7 +287,7 @@ footer {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 24% 95% 46% 62% / 81% 31% 50% 33%;
+    border-radius: var(--border-radius-banner);
     padding: 30px 30px 15px 30px;
     backdrop-filter: blur(5px);
 }
@@ -295,7 +308,7 @@ footer {
 }
 
 .skills-brands {
-    color: #B5EAC8;
+    color: var(--secondary-color);
     text-shadow: 2px 2px 5px #11111199;
     cursor: pointer;
 }
@@ -305,17 +318,17 @@ footer {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 50px;
-    border:1px solid rgba(255, 255, 255, 0.18);
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    width: 90%;
 }
 
 .hr-about {
-    color: #B5EAC8;
+    color: var(--secondary-color);
 }
 
 #about-page footer .footer-icon {
-    color: #B5EAC8;
+    color: var(--secondary-color);
     text-shadow: 2px 2px 5px #11111199;
     cursor: pointer;
 }
@@ -323,7 +336,7 @@ footer {
 /* --------------------------- contact-page -------------------------- */
 
 #contact-page .cls-1 {
-    fill: #ACE1EF;
+    fill: var(--tertiary-color);
 }
 
 .banner-contact {
@@ -344,35 +357,34 @@ footer {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 24% 95% 46% 62% / 81% 31% 50% 33%;
+    border-radius: var(--border-radius-banner);
     padding: 30px 30px 15px 30px;
     backdrop-filter: blur(5px);
 }
 
 #contact-page .list-unstyled li a {
-    color: #ACE1EF;
+    color: var(--tertiary-color);
     text-shadow: 2px 1px 2px #11111180;
 }
 
 #contact-page h1, #contact-page h2, #contact-page h3 {
-    font-family: Cinzel, serif;
-    color: #ACE1EF;
+    color: var(--tertiary-color);
     padding: 0.5rem 0 1rem 0;
 }
 
 .contact-form input.form-control,
 .contact-form textarea.form-control {
-    background-color: #FFF9F3;
+    background-color: var(--text-color);
 }
 
 .form-group label {
-    color: #FFF9F3;
+    color: var(--text-color);
 }
 
 .datepicker {
 	width: 95%;
 	max-width: 350px;
-	background-color: #FFF9F3;
+	background-color: var(--text-color);
 	border-radius: 10px;
 	box-shadow: 0 0 2px 0 rgba(#000, .2), 0 5px 10px 0 rgba(#000, .1);
 	padding: 1rem;
@@ -389,7 +401,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	border: 0;
-	background-color:#ACE1EF;
+	background-color: var(--tertiary-color);
 	border-radius: 50px;
 	width: 2.5rem;
 	height: 2.5rem;
@@ -398,7 +410,7 @@ footer {
 
 .month-name {
 	font-weight: 600;
-    color: #111;
+    color: var(--background-color);
     font-size: 1.5rem;
 }
 
@@ -413,7 +425,7 @@ footer {
 }
 
 .day {
-	color: #ACE1EF;
+	color: var(--tertiary-color);
 	font-size: .875em;
 	font-weight: 500;
 	justify-self: center;
@@ -441,26 +453,26 @@ footer {
 }
 
 .current-day {
-	background-color: #ACE1EF;
+	background-color: var(--tertiary-color);
     border-radius: 50px;
 }
 
 #my-email {
-    color: #FFF9F3;
+    color: var(--text-color);
 }
 
 .hr-contact {
-    color: #ACE1EF;
+    color: var(--tertiary-color);
 }
 
 .send-button {
-    background-color: #ACE1EF;
+    background-color: var(--tertiary-color);
     border-radius: 40px;
     padding: 0.5rem 1.3rem;
 }
 
 #contact-page footer .footer-icon {
-    color: #ACE1EF;
+    color: var(--tertiary-color);
     text-shadow: 2px 2px 5px #11111199;
     cursor: pointer;
 }
