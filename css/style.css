@@ -76,7 +76,7 @@ header {
 /* Services + Insights */
 
 .service-item img {
-    border-radius: 100px;
+    border-radius: 45% 31% 20% 57% / 50% 72% 51% 36% ;
 }
 
 .service-item {
@@ -129,7 +129,7 @@ header {
 }
 
 .insights-img div img {
-    border-radius: 100px;
+    border-radius: 27% 67% 35% 47% / 55% 25% 62% 24% ;
     position: relative;
 }
 
@@ -147,6 +147,9 @@ header {
 .middle-higher {
     margin-top: -50px;
 }
+
+/* add glass effect in the future to the insights */
+
 
 
 /* Contact */
@@ -166,6 +169,7 @@ header {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    max-width: 100%;
 }
 
 .custom-shape-divider-top-1722698067 svg {
@@ -230,14 +234,23 @@ footer {
 }
 
 .yet-to-discover div img {
-    border-radius: 100px;
+    border-radius: 23% 77% 23% 77% / 66% 32% 68% 34% ; 
 }
 
 #skills {
-    background-image: url('../images/vecteezy_light-green-soft-gradient-background-green-background_13272786.jpg');
-    /* change this image */
+    background-image: url('../images/bubbles.jpg');
+    background-position: bottom;
     border-radius: 50px;
     padding: 30px 0;
+}
+
+#skills h2 {
+    text-shadow: 2px 2px 5px #11111199;
+}
+
+.fa-brands {
+    color: #B5EAC8;
+    text-shadow: 2px 2px 5px #11111199;
 }
 
 .glass{
