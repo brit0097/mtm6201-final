@@ -18,6 +18,24 @@ body {
     color: var(--text-color);
 }
 
+.skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.skip-links a {
+    position: absolute;
+    top: -4em;
+    background-color: black;
+    color: rgb(255, 252, 241);
+    padding: 1em;
+}
+  
+.skip-links a:focus {
+    top: 0;
+    }
+
 img {
     max-width: 100%;
 }
@@ -73,7 +91,7 @@ header {
     left: 50%;
     transform: translate(10%, -20%);
     text-shadow: 2px 2px 5px #11111150;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.37);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: var(--border-radius-banner);
@@ -284,7 +302,7 @@ footer {
     left: 50%;
     transform: translate(10%, -20%);
     text-shadow: 2px 2px 5px #11111150;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.37);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: var(--border-radius-banner);
@@ -353,8 +371,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(10%, -20%);
-    text-shadow: 2px 2px 5px #11111150;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    text-shadow: 2px 2px 5px #11111180;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.37);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: var(--border-radius-banner);
