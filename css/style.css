@@ -216,6 +216,12 @@ footer {
     color: #F2C0C0;
 }
 
+#index-page footer .footer-icon {
+    color: #F2C0C0;
+    text-shadow: 2px 2px 5px #11111199;
+    cursor: pointer;
+}
+
 
 /* -------------------------- about-page ---------------------------- */
 
@@ -248,9 +254,10 @@ footer {
     text-shadow: 2px 2px 5px #11111199;
 }
 
-.fa-brands {
+.skills-brands {
     color: #B5EAC8;
     text-shadow: 2px 2px 5px #11111199;
+    cursor: pointer;
 }
 
 .glass{
@@ -265,6 +272,12 @@ footer {
 
 .hr-about {
     color: #B5EAC8;
+}
+
+#about-page footer .footer-icon {
+    color: #B5EAC8;
+    text-shadow: 2px 2px 5px #11111199;
+    cursor: pointer;
 }
 
 /* --------------------------- contact-page -------------------------- */
@@ -380,4 +393,10 @@ footer {
     background-color: #ACE1EF;
     border-radius: 40px;
     padding: 0.5rem 1.3rem;
+}
+
+#contact-page footer .footer-icon {
+    color: #ACE1EF;
+    text-shadow: 2px 2px 5px #11111199;
+    cursor: pointer;
 }
