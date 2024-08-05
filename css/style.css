@@ -33,20 +33,36 @@ header {
     position: relative;
 }
 
+#index-page .cls-1 {
+    fill: #F2C0C0;
+}
+
 .banner {
     background-image: url('../images/home.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
+    position: relative;
 }
 
-.list-unstyled li a {
-    color: #FFF9F3;
+#index-page .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -20%);
+    text-shadow: 2px 2px 5px #11111150;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 24% 95% 46% 62% / 81% 31% 50% 33%;
+    padding: 30px 30px 15px 30px;
+    backdrop-filter: blur(5px);
 }
 
-#index-nav:first-child {
-    color: #F2C0C0;
+#index-page .list-unstyled li a {
+    color: #f2c0c0;
+    text-shadow: 2px 1px 2px #11111180;
 }
 
 .custom-shape-divider-bottom-1722697010 {
@@ -231,12 +247,36 @@ footer {
     padding: 0.5rem 0 1rem 0;
 }
 
+#about-page .list-unstyled li a {
+    color: #B5EAC8;
+    text-shadow: 2px 1px 2px #11111180;
+}
+
+#about-page .cls-1 {
+    fill: #B5EAC8;
+}
+
 .banner-about {
     background-image: url('../images/journey.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
+    position: relative;
+}
+
+#about-page .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -20%);
+    text-shadow: 2px 2px 5px #11111150;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 24% 95% 46% 62% / 81% 31% 50% 33%;
+    padding: 30px 30px 15px 30px;
+    backdrop-filter: blur(5px);
 }
 
 .yet-to-discover div img {
@@ -282,12 +322,36 @@ footer {
 
 /* --------------------------- contact-page -------------------------- */
 
+#contact-page .cls-1 {
+    fill: #ACE1EF;
+}
+
 .banner-contact {
     background-image: url('../images/contact.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
+    position: relative;
+}
+
+#contact-page .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -20%);
+    text-shadow: 2px 2px 5px #11111150;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 24% 95% 46% 62% / 81% 31% 50% 33%;
+    padding: 30px 30px 15px 30px;
+    backdrop-filter: blur(5px);
+}
+
+#contact-page .list-unstyled li a {
+    color: #ACE1EF;
+    text-shadow: 2px 1px 2px #11111180;
 }
 
 #contact-page h1, #contact-page h2, #contact-page h3 {
