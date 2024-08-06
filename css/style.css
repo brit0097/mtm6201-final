@@ -414,7 +414,7 @@ footer {
     background-color: var(--secondary-color);
     border-radius: 50%;
     padding: 3px;
-    transition: background-color 0.3s ease, transform 0.8s ease, border-radius 0.4s ease,;
+    transition: background-color 0.3s ease, transform 0.8s ease, border-radius 0.4s ease;
 }
 
 #about-page nav .cormorant:hover .fa-circle {
@@ -524,7 +524,7 @@ footer {
     background-color: var(--tertiary-color);
     border-radius: 50%;
     padding: 3px;
-    transition: background-color 0.3s ease, transform 0.8s ease, border-radius 0.4s ease,;
+    transition: background-color 0.3s ease, transform 0.8s ease, border-radius 0.4s ease;
 }
 
 #contact-page nav .cormorant:hover .fa-circle {
@@ -547,7 +547,7 @@ footer {
 	max-width: 350px;
 	background-color: var(--text-color);
 	border-radius: 10px;
-	box-shadow: 0 0 2px 0 rgba(#000, .2), 0 5px 10px 0 rgba(#000, .1);
+	box-shadow: 0 0 2px 0 #00000020, 0 5px 10px 0 #00000010;
 	padding: 1rem;
 }
 
@@ -566,7 +566,7 @@ footer {
 	border-radius: 50px;
 	width: 2.5rem;
 	height: 2.5rem;
-	box-shadow: 0 0 2px 0 rgba(#000,.25), 0 0 10px 0 rgba(#000, .15);
+	box-shadow: 0 0 2px 0 #00000025, 0 0 10px 0 #00000015;
 }
 
 .month-name {
