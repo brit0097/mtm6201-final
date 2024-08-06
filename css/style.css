@@ -34,7 +34,7 @@ body {
   
 .skip-links a:focus {
     top: 0;
-    }
+}
 
 img {
     max-width: 100%;
@@ -60,7 +60,7 @@ header {
 
 .btn:hover,
 .btn:focus {
-    background-color: #FFF9F3;
+    background-color: var(--text-color);
     transform: scale(1.2);
     border-radius: 52% 77% 81% 40% / 29% 78% 56% 76% ;
     color: #111;
