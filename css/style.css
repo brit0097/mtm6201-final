@@ -404,6 +404,7 @@ footer {
 }
 
 .yet-to-discover div img {
+    max-height: 500px;
     border-radius: 23% 77% 23% 77% / 66% 32% 68% 34% ; 
 }
 
