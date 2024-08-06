@@ -655,3 +655,7 @@ footer {
         -2px 1px 0 #000,
         2px 1px 0 #000;
 }
+
+#hidden {
+    overflow: hidden;
+}
